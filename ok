@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ending machine (to-link)</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #d2d2d2;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 20px;
+      background-image: linear-gradient(90deg, #111 1px, transparent 1px),
+                        linear-gradient(#111 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      border: 2px dashed #d2d2d2;
+      padding: 20px;
+      background-color: #2a2a2a;
+      box-shadow: 0 0 10px rgba(0,255,150,0.2);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ffeb3b;
+      text-shadow: 1px 1px 0 #000;
+    }
+
+    .link-button {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #000;
+      color: #33ff33;
+      text-decoration: none;
+      border: 1px solid #33ff33;
+      font-size: 16px;
+      text-align: center;
+      transition: 0.2s;
+    }
+
+    .link-button:hover {
+      background-color: #33ff33;
+      color: #000;
+    }
+
+    .glitch {
+      animation: glitch 1s infinite;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red; }
+      20% { text-shadow: -2px 0 blue; }
+      40% { text-shadow: 2px 0 green; }
+      60% { text-shadow: -2px 0 magenta; }
+      80% { text-shadow: 2px 0 cyan; }
+      100% { text-shadow: 0 0 white; }
+    }
+
+    footer {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="glitch">ENDING MACHINE</h1>
+    <p>yes.
+        we do not have songs in any music streaming platform (except YouTube Music). if you love us quite bad, just illegally download it. or... Bandcamp.
+    </p>
+    <a class="link-button" href="https://endingmachine.bandcamp.com">Bandcamp</a>
+    <a class="link-button" href="https://youtube.com/@endingmachine1899">YouTube</a>
+    <a class="link-button" href="https://instagram.com/endingmachine1899">Instagram</a>
+    <a class="link-button" href="https://x.com/ending1899">X/Twitter</a>
+    <a class="link-button" href="mailto:tcanaryf@gmail.com">Email Us (really?)</a>
+
+
+
+    <footer>
+      © 2025 by Ending Machine. Last updated with Notepad.exe (if we sure enough)
+    </footer>
+  </div>
+</body>
+</html>
